@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+<!--Has styling for slideshow  -->
+    <style>
+
+.mySlides {display: none}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: -60px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev{
+  left: -38px;
+  border-radius: 3px 0 0 3px;
+
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="img/favicon.jpeg" type="image/x-icon">
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Anju Padia</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+   
+    <!-- Custom styles for this template -->
+    <link href="css/style.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation  Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class=" js-scroll-trigger" href="vendor/AnjuPadia_Resume_DE.pdf">Download Resume</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#exp">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#awardsr">Awards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#edu">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skill">Skills</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+            <img class="rounded-circle img-fluid mb-5 d-block mx-auto" src="img/IMG_8745.jpg" alt="" width="400, height="1000">
+      <div class="intro-lead-in">Hi 👋, I am</div>
+            <div class="intro-heading ">Anju Padia</div><p style="font-size: 23px">I transform data into foresight, <br> empowering machines to unveil future narratives through the threads of the past.🤓💻</p>
+      </div>
+     </header>
+
+      <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase ">About</h2>
+            <center><div class="sm-line"></div></center><br>
+          </div>
+        </div>
+     <p class="about"><p>Hey there! ✨ Passionate about transforming intricate concepts into captivating narratives, I'm Anju Padia, a tech enthusiast with a knack for making complex ideas accessible and exciting to everyone. 
+      🚀 My world revolves around the enchanting realm of data, where every digit tells a compelling story and guides the way forward. 🌐
+      I thrive on picking up new skills and seamlessly fitting into any team like a missing puzzle piece🧩. 
+      As a tech buff 👩‍💻, I dive deep into <span style="background-color: #FDD1A2;">data analysis and machine learning</span>, unraveling challenges with a smile. 
+      Problem-solving? That's my kind of adventure. 😎 </p>
+                        
+      <p>I am pursuing a <span style="background-color: #FDD1A2;">Master of Science in Computer Science</span> from <span style="background-color: #FDD1A2;">Syracuse University</span> and eagerly seeking full-time opportunities starting May 2024. 
+        Additionally, I am actively engaged as a <span style="background-color: #FDD1A2;">Graduate Teaching Assistant</span> for the course Object-Oriented Design. 
+        My recent endeavors also include a Summer Internship at <span style="background-color: #FDD1A2;">Delaware North</span>, where my focus centered around the critical task of validating data.</p>
+
+        
+        <p>Currently, I'm actively looking for <span style="background-color: #FDD1A2;">full-time roles</span>💼 in the data domain where I can apply my <span style="background-color: #FDD1A2;">strong analytical and problem-solving skills</span> for a meaningful impact and help the business foster🤩🤩.
+        My objective is to work on a challenging job profile that can provide me with an opportunity to refine my technical skills and excel as a <span style="background-color: #FDD1A2;">Data Scientist, Data Engineer, Data Analyst or an ML Engineer</span>😎.</p>
+
+<p>🌄 Beyond the digital realm, I find joy in hiking adventures ⛰️, sketching, dancing to the music's rhythm 🎶, and the creative art of cooking 🧑‍🍳.</p>
+
+
+
+<p>👥You can get in touch with me using <a href="mailto: anjupadia1998@gmail.com" rel="noopener noreferrer">email</a>, checkout some of my projects on <a href="https://github.com/dldisha" rel="noopener noreferrer">GitHub</a>, 
+connect with me on <a href="https://www.linkedin.com/in/anju-padia/" rel="noopener noreferrer">LinkedIn</a>, or read my <a href="vendor/AnjuPadia_Resume_DE.pdf" rel="noopener noreferrer" >resume</a>.</p>
+      </div>
+    </section>
+    <!-- End About -->
+   
+
+
+    <!-- Experince -->
+    <section class="bg-light" id="exp">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase title">Experience</h2>
+             <center><div class="sm-line"></div></center><br><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/exp/GraduateTeaching.png" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h5>Aug 2023 - Present</h5>
+                    <h5 class="subheading">Graduate Teaching Assistant</h5>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Guided over 50 students in mastering core Java principles, encompassing object-oriented design, design patterns, testing, concurrency, and more. Led lab sessions, provided office hours, managed assessments, and efficiently tracked student progress, fostering an engaging and supportive learning environment.</p>
+                  </div>
+                </div>
+              </li>
+
+            <li class="timeline-inverted">
+             <div class="timeline-image">
+               <img class="rounded-circle img-fluid" src="img/exp/DNC.webp" alt="">
+             </div>
+             <div class="timeline-panel">
+               <div class="timeline-heading">
+                 <h5>May 2023 - Aug 2023</h5>
+                 <h5 class="subheading">Delaware North</h5>
+               </div>
+               <div class="timeline-body">
+                 <p class="text-muted"> As a <b>Data Engineer Intern</b> I led the development and implementation of modular Python code within an enterprise data platform, optimizing tools, introducing innovative solutions, and achieving a 70% increase in data quality and support efficiency. </p>
+               </div>
+             </div>
+           </li>
+
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/exp/iconsult_at_syracuse_university_logo.jpeg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h5>Mar 2023 - Present</h5>
+                    <h5 class="subheading">iConsult Collaborative</h5>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Collaborated with the design team to create visually appealing and user-friendly web pages for a law firm website on the Wix platform. Contributed to feature development, addressed frontend issues, and ensured a seamless, error-free user experience by implementing best practices in mobile-friendly design and user interactions using Wix, HTML, CSS, and Node.js.</p>
+
+</p>
+                  </div>
+                </div>
+              </li>
+               <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/exp/LT.NS.png" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h5>Aug 2020 - Aug 2022</h5>
+                    <h5 class="subheading">Larsen and Toubro Infotech</h5>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted"> Pioneered the analysis of extensive datasets, playing a key role in crafting scalable Big Data solutions and optimizing ETL ecosystems. Innovatively revamped a Data Ingestion automation Framework, orchestrating PySpark jobs for diverse data origins, and conducted thorough data analyses, elevating operational efficiency and reliability to new heights.</p>
+                  </div>
+                </div>
+              </li>
+              
+                  </div>
+                </div>
+              </li>
+               
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Experience -->
+
+ <!-- Awards -->
+ <section id="awards">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase title"> Certifications & Awards</h2>
+         <center><div class="sm-line"></div></center><br><br>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/exp/Oracle.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h5 class="subheading">Oracle Cerification</h5>
+                  <h5> Mar 2021</h5>  
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted"> Achieved Oracle Certification for Java Associate with a commendable score of 89% in March 2021, showcasing proficiency in Java programming and related concepts.</p>
+                    
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/exp/LT.NS.png" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h5 class="subheading">Certificate of Appreciation</h5>
+                  <h5>Apr 2021</h5>
+      
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted"> This certificate of appreciation was awarded for excellent grasping in domain, outstanding performance, service and dedication in the month of April, 2021 </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/exp/HoFA.jpeg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h5 class="subheading">Hall of the Fame Award</h5>
+                  <h5> Mar 2020</h5>  
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted"> I was honoured with the Hall of Fame Award for showing excellent overall performance in academics and extra curricular activities in my college.</p>
+                    
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- End Leadership -->
+
+    <!-- Education -->
+    <section class="bg-light" id="edu">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase title">Education</h2>
+             <center><div class="sm-line"></div></center><br><br>
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/education/61DSjx-LPTS.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h5>2022 - 2024</h5>
+                    <h5 class="subheading">Syracuse University, United States</h5>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Masters in Computer Science</p>
+                    <p class="text-muted"><b>Relevent coursework:</b> Data Structures, Natural Language Processing, Machine Learning, Data Analytics and Decision Making, Social Media and Data Mining</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/education/images.jpeg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h5>2016 - 2020</h5>
+                    <h5 class="subheading">Thadomal Shahani Engineering College, Mumbai, India</h5>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Bachelors of Engineering in Information Technology</p>
+		    <p class="text-muted"> <b> Major project: </b> Product Review Analysis for Genuine Rating using Sentiment Analysis (<a href="https://www.google.com/url?sa=t&source=web&rct=j&url=https://www.irjet.net/archives/V7/i4/IRJET-V7I41198.pdf&ved=2ahUKEwjF7IrimKbpAhU0yzgGHUGUD0gQFjAAegQIBRAC&usg=AOvVaw0qBV8Xw6YEo7uZbf34paes" target="_blank">Publishment</a>) </p>
+                  </div>
+                </div>
+              </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Education -->
+
+
+  <!-- Skills -->
+  <section id="skill">
+    <div class="container">
+     <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase title">Skill Set</h2>
+             <center><div class="sm-line"></div></center><br><br>
+        
+  
+  <div class="wrapper">
+
+
+    <div class="box wrap-o">
+      <i class="fas fa-mug-hot fa-2x" style="color:#FCAE24"></i>
+      <div class="sm-wrap">
+        <h5>Scripting</h5>
+         <p class="sd text-muted">Python & ML libraries, R, PySpark, TensorFlow, NLTK, Node.js, JavaScript </p>
+      </div>
+    </div>
+
+  <div class="box wrap-o">
+        <i class="fas fa-fire fa-2x" style="color:#FCAE24"></i>
+        <div class="sm-wrap">
+          <h5>Frameworks</h5>
+           <p class="sd text-muted"> Flask, ReactJS, HTML/CSS, Angular, Springboot</p>
+        </div>
+      </div> 
+
+    <div class="box wrap-o">
+      <i class="fas fa-database fa-2x" style="color:#FCAE24"></i>
+      <div class="sm-wrap">
+        <h5>Databases & Analytics</h5>
+         <p class="sd text-muted">MySQL, Hadoop, NoSQL, Tableau, PowerBI</p>
+      </div>
+    </div>
+
+  <div class="box wrap-o">
+        <i class="fas fa-desktop fa-2x" style="color:#FCAE24"></i>
+        <div class="sm-wrap">
+          <h5>Cloud Services & Tools</h5>
+           <p class="sd text-muted"> Amazon Web Services, Azure, Git, Linux</p>
+        </div>
+      </div>   
+
+  <div class="box wrap-o">
+        <i class="fas fa-desktop fa-2x" style="color:#FCAE24"></i>
+        <div class="sm-wrap">
+          <h5>Big data Technologies</h5>
+           <p class="sd text-muted">Distributed Storage, Apache Spark, Apache Hadoop, Apache Kafka, Airflow </p>
+        </div>
+      </div>     
+
+
+</div>      
+    </div>
+</div>
+
+</div>
+    </section>
+   
+    <footer id="contact">
+     <p class="last">Finding joy <br>
+                    in the bits and bytes <br>
+                    of life! 🤖
+                  </p>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4">
+            
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://github.com/anjupadia">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/anju.padia">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/anju-padia/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="mailto:jb.anjupadia1998@gmail.com">
+                <i class="far fa-paper-plane"></i>
+                </a>
+              </li>
+            </ul>
+            <p class="last">&#169 anjupadia | Made with <i class="fas fa-heart" style="color:#b30000"></i> &nbspin India</p>
+          </div>
+         </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/main.min.js"></script>
+
+<!-- Script for slideshow in the project -->
+    <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+  </body>
+
+  </html>
